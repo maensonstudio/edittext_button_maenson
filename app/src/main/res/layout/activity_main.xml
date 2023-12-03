@@ -77,7 +77,8 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="공개 안함"/>
+            android:text="공개 안함"
+            android:enabled="true"/>
 
 
     </RadioGroup>
@@ -86,7 +87,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="이용약관 동의"
-        android:checked="false"/>
+        android:checked="false"
+        android:visibility="gone"/>
 
 
     <Button
